@@ -53,7 +53,7 @@ def fetch_data():
 
 def store_data(data_list):
     # Cadena de conexión a MongoDB Atlas
-    client = MongoClient("mongodb+srv://<username>:<password>@cluster1.krfn9qj.mongodb.net/")
+    client = MongoClient("mongodb+srv://copito:golazo@cluster1.krfn9qj.mongodb.net/")
     db = client["terremotos"]
     collection = db["coleccion1"]
 
